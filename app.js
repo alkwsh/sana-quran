@@ -23,12 +23,13 @@
     if(!policy) return;
     document.querySelectorAll('[data-policy]').forEach(el => {el.textContent=policy[el.dataset.policy][language]});
     const holder=document.getElementById('policy-sections'); holder.replaceChildren();
-    ['local','audio','provider','social','permissions','network','retention','support','usage','updates'].forEach(section=>{
+    ["local", "audio", "provider", "social", "permissions", "network", "retention", "support", "icloud", "analytics", "usage", "updates"].forEach(section=>{
       const card=document.createElement('section');card.className='policy-card';card.id=section;
       const title=document.createElement('h2');title.textContent=policy[`privacy_${section}_title`][language];
       const body=document.createElement('p');body.textContent=policy[`privacy_${section}_body`][language];
       card.append(title,body);
       if(section==='provider') for(const [key,url] of [['privacy_provider_link','https://qud.dev/en/projects/aligner/'],['privacy_host_link','https://huggingface.co/privacy']]){const a=document.createElement('a');a.textContent=policy[key][language];a.href=url;a.target='_blank';a.rel='noopener noreferrer';card.append(a)}
+      if(section==='analytics'){const a=document.createElement('a');a.textContent=policy.privacy_analytics_link[language];a.href='https://policies.google.com/privacy';a.target='_blank';a.rel='noopener noreferrer';card.append(a)}
       holder.append(card);
     });
   }
