@@ -56,16 +56,16 @@ window.SANA_PRIVACY = {
     "en": "Hugging Face privacy"
   },
   "privacy_icloud_body": {
-    "ar": "يمكنك تفعيل مزامنة بيانات القراءة اختياريًا، وتفعيل مزامنة المشاريع والملفات الصوتية بخيار مستقل. يستخدم سنا قاعدة CloudKit الخاصة بحساب Apple لديك، ضمن حاوية مستقلة لسنا القرآن. تشمل بيانات القراءة المواضع والفواصل والمفضلة والختمة وأثر التلاوة. تشمل مزامنة المشاريع الملفات التابعة لها، والملفات الصوتية التي اخترت حفظها. لا تشمل تسجيلات تسميع الحفظ المؤقتة أو تنزيلات القراء والكتب. إيقاف المزامنة لا يحذف بيانات الجهاز أو iCloud؛ حذف النسخة السحابية له إجراء مستقل وتأكيد واضح.",
-    "en": "You can optionally enable reading-data sync, with a separate option for projects and saved audio. Sana uses your Apple Account’s private CloudKit database in a container dedicated to Sana Quran. Reading data includes positions, bookmarks, favorites, khatma and reading impact. Library sync includes saved projects and their source files, plus audio you chose to save. Temporary memorization recordings and downloaded recitations or books are excluded. Turning sync off does not delete local or iCloud data; deleting the cloud copy is a separate, confirmed action."
+    "ar": "يمكنك تفعيل مزامنة بيانات القراءة اختياريًا، وتفعيل مزامنة المشاريع والملفات الصوتية بخيار مستقل. يستخدم سنا قاعدة CloudKit الخاصة بحساب Apple لديك، ضمن حاوية مستقلة لسنا القرآن. تشمل بيانات القراءة المواضع والفواصل والمفضلة والختمة وأثر القراءة. تشمل مزامنة المشاريع الملفات التابعة لها، والملفات الصوتية التي اخترت حفظها. لا تشمل تنزيلات القراء والكتب. جلسات تسميع الحفظ لا تحفظ تسجيلات صوتية. إيقاف المزامنة لا يحذف بيانات الجهاز أو iCloud؛ حذف النسخة السحابية له إجراء مستقل وتأكيد واضح.",
+    "en": "You can optionally enable reading-data sync, with a separate option for projects and saved audio. Sana uses your Apple Account’s private CloudKit database in a container dedicated to Sana Quran. Reading data includes positions, bookmarks, favorites, khatma and reading impact. Library sync includes saved projects and their source files, plus audio you chose to save. Downloaded recitations and books are excluded. Memorization review does not save audio recordings. Turning sync off does not delete local or iCloud data; deleting the cloud copy is a separate, confirmed action."
   },
   "privacy_icloud_title": {
     "ar": "حفظ البيانات في iCloud",
     "en": "Saving data in iCloud"
   },
   "privacy_intro": {
-    "ar": "هذه الصفحة توضح ما يبقى على جهازك، ومتى يحتاج سنا إلى خدمات خارجية، وكيف تستخدم أدواته. تنطبق على الميزات المتاحة حاليًا. تشمل هذه السياسة التحديث التجريبي 1.0 (9)؛ قد لا تتوفر بعض الميزات في الإصدارات السابقة.",
-    "en": "This page explains what stays on your device, when Sana uses external services, and how its tools work. It describes the features currently available. This policy includes beta update 1.0 (9); some features may not be available in earlier builds."
+    "ar": "هذه الصفحة توضح ما يبقى على جهازك، ومتى يحتاج سنا إلى خدمات خارجية، وكيف تستخدم أدواته. تنطبق على الميزات المتاحة حاليًا.",
+    "en": "This page explains what stays on your device, when Sana uses external services, and how its tools work. It describes the features currently available."
   },
   "privacy_local_body": {
     "ar": "تُحفظ مشاريعك وتسجيلاتك المحفوظة وإعداداتك والفواصل وأثر القراءة محليًا داخل سنا. لا يتطلب التطبيق إنشاء حساب. تُعالج جلسات تسميع الحفظ محليًا بنموذج مضمّن، ولا نحفظ صوت الجلسة أو نصها كتسجيل؛ نحتفظ بالتقدم وبيانات أثر القراءة اللازمة للميزات. تسجيل «سجّل بصوتك» ميزة منفصلة تحفظ الصوت عندما تختار استخدام التسجيل. عند المسح بالصورة، تتم قراءة الصورة ومطابقتها على الجهاز دون حفظها أو إرسالها. إذن الكاميرا لا يُطلب إلا عند اختيار فتحها.",
@@ -112,12 +112,12 @@ window.SANA_PRIVACY = {
     "en": "Storage, deletion and sharing"
   },
   "privacy_revision": {
-    "ar": "آخر تحديث: 1 أكتوبر 2026",
-    "en": "Last updated: October 1, 2026"
+    "ar": "آخر تحديث: 6 أكتوبر 2026",
+    "en": "Last updated: October 6, 2026"
   },
   "privacy_social_body": {
-    "ar": "عند تأكيد فتح سنا من المشاركة، يُحفظ رابط المقطع على جهازك مؤقتًا إلى أن تفتح سنا. تُحذف الروابط بعد إغلاق الاستيراد أو عند فحص الروابط المنتهية بعد 24 ساعة. لا تتزامن هذه الروابط مع iCloud. يتصل سنا بإنستغرام أو تيك توك لجلب الفيديو العام، دون قراءة جلسة حسابك أو تسجيل دخولك. ملفات ارتباط مؤقتة تبقى داخل جلسة الطلب فقط. يُحذف الفيديو المؤقت بعد استخراج الصوت؛ ويخضع تحليل الصوت لسياسة مزود التحليل الموضحة هنا. قد تتعذر بعض الروابط، ولا يتجاوز سنا قيود الحسابات الخاصة أو تسجيل الدخول.",
-    "en": "When you confirm opening Sana from sharing, the clip link is stored temporarily on this device until you open Sana. Links are removed after closing import or when expired links are checked after 24 hours. They do not sync with iCloud. Sana contacts Instagram or TikTok to fetch public video without reading your account session or signing you in. Temporary cookies stay within that request session. The temporary video is deleted after extracting audio; audio analysis follows the provider policy described here. Some links may be unavailable; Sana does not bypass private-account or sign-in restrictions."
+    "ar": "عند تأكيد فتح سنا من المشاركة، يُحفظ رابط المقطع على جهازك مؤقتًا إلى أن تفتح سنا. تُحذف الروابط بعد إغلاق الاستيراد أو عند فحص الروابط المنتهية بعد 24 ساعة. لا تتزامن هذه الروابط مع iCloud. يتصل سنا بإنستغرام أو تيك توك أو X لجلب الفيديو العام، دون قراءة جلسة حسابك أو تسجيل دخولك. ملفات ارتباط مؤقتة تبقى داخل جلسة الطلب فقط. يُحذف الفيديو المؤقت بعد استخراج الصوت؛ ويخضع تحليل الصوت لسياسة مزود التحليل الموضحة هنا. قد تتعذر بعض الروابط، ولا يتجاوز سنا قيود الحسابات الخاصة أو تسجيل الدخول.",
+    "en": "When you confirm opening Sana from sharing, the clip link is stored temporarily on this device until you open Sana. Links are removed after closing import or when expired links are checked after 24 hours. They do not sync with iCloud. Sana contacts Instagram, TikTok, or X to fetch public video without reading your account session or signing you in. Temporary cookies stay within that request session. The temporary video is deleted after extracting audio; audio analysis follows the provider policy described here. Some links may be unavailable; Sana does not bypass private-account or sign-in restrictions."
   },
   "privacy_social_title": {
     "ar": "المقاطع المشتركة عبر رابط",
