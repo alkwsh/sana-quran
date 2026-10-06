@@ -115,14 +115,6 @@ window.SANA_PRIVACY = {
     "ar": "آخر تحديث: 6 أكتوبر 2026",
     "en": "Last updated: October 6, 2026"
   },
-  "privacy_social_body": {
-    "ar": "عند تأكيد فتح سنا من المشاركة، يُحفظ رابط المقطع على جهازك مؤقتًا إلى أن تفتح سنا. تُحذف الروابط بعد إغلاق الاستيراد أو عند فحص الروابط المنتهية بعد 24 ساعة. لا تتزامن هذه الروابط مع iCloud. يتصل سنا بإنستغرام أو تيك توك أو X لجلب الفيديو العام، دون قراءة جلسة حسابك أو تسجيل دخولك. ملفات ارتباط مؤقتة تبقى داخل جلسة الطلب فقط. يُحذف الفيديو المؤقت بعد استخراج الصوت؛ ويخضع تحليل الصوت لسياسة مزود التحليل الموضحة هنا. قد تتعذر بعض الروابط، ولا يتجاوز سنا قيود الحسابات الخاصة أو تسجيل الدخول.",
-    "en": "When you confirm opening Sana from sharing, the clip link is stored temporarily on this device until you open Sana. Links are removed after closing import or when expired links are checked after 24 hours. They do not sync with iCloud. Sana contacts Instagram, TikTok, or X to fetch public video without reading your account session or signing you in. Temporary cookies stay within that request session. The temporary video is deleted after extracting audio; audio analysis follows the provider policy described here. Some links may be unavailable; Sana does not bypass private-account or sign-in restrictions."
-  },
-  "privacy_social_title": {
-    "ar": "المقاطع المشتركة عبر رابط",
-    "en": "Clips shared through links"
-  },
   "privacy_support_body": {
     "ar": "الإبلاغ اختياري. يُجهّز سنا تقريرًا محليًا يتضمن وصفك وإصدار التطبيق ونوع الجهاز والنظام واللغة والصفحة وحالات تشغيل تقنية محدودة. هز الجهاز يضيف لقطة شاشة ظاهرة في النموذج، ويمكنك إلغاء إرفاقها. لا يتضمن التقرير ملفات المشاريع أو التسجيلات الصوتية أو سجل بحثك. لا يُرسل شيء تلقائيًا؛ تختار الإرسال من البريد أو المشاركة إلى Aboutmuslimapp@gmail.com. تُحذف المرفقات المؤقتة بعد انتهاء استخدامها. يمكنك إيقاف هز الجهاز من الإعدادات.",
     "en": "Reporting is optional. Sana prepares a local report with your description, app version, device and system information, language, current screen and limited technical events. Shaking adds a screenshot visible in the form, which you can exclude. The report does not include project files, audio recordings or search history. Nothing is sent automatically; you choose to send it by mail or sharing to Aboutmuslimapp@gmail.com. Temporary attachments are removed when no longer in use. You can disable shake reporting in Settings."

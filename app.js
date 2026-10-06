@@ -23,7 +23,7 @@
     if(!policy) return;
     document.querySelectorAll('[data-policy]').forEach(el => {el.textContent=policy[el.dataset.policy][language]});
     const holder=document.getElementById('policy-sections'); holder.replaceChildren();
-    ["local", "audio", "provider", "social", "permissions", "network", "retention", "support", "icloud", "analytics", "usage", "updates"].forEach(section=>{
+    ["local", "audio", "provider", "permissions", "network", "retention", "support", "icloud", "analytics", "usage", "updates"].forEach(section=>{
       const card=document.createElement('section');card.className='policy-card';card.id=section;
       const title=document.createElement('h2');title.textContent=policy[`privacy_${section}_title`][language];
       const body=document.createElement('p');body.textContent=policy[`privacy_${section}_body`][language];
